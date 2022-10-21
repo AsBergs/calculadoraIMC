@@ -1,0 +1,63 @@
+:root{
+    --color_1: #265cf2;
+    --color_2: #0051ff00;
+    --color_3: #1678e7;
+    --color_4: rgb(89, 140, 251);
+    --color_5: rgba(0, 128, 255, 0.485);
+    --color_6: rgba(73, 203, 242, 0.461);
+    --color_7: rgb(170, 0, 170);
+}
+
+h1{
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 10px;
+    text-align: center;
+    color: var(--color_7);
+}
+
+
+body {
+   background-image: url(taytay.jpg);
+   
+display: flex;
+justify-content: center;
+margin-top: 250px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button {
+    background-color: var(--color_7);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 75px;
+}
+form {
+    
+    margin: 40px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}main{
+    
+   
+    background-color: var(--color_2);
+    justify-content: center;
+    border-radius: 20px;
+}input{
+    font-size: 20px;
+    background-color: var(--color_5);
+    text-align: center;
+}label{
+    color: var(--color_7);
+    font-size: 30px;
+}
+#resultado{
+    background-color: var(--color_6);
+    font-size: 30px;
+    color: var(--color_7);
+    text-align: center;
+    border: 3px solid var(--color_1);
+}
